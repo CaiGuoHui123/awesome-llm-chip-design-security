@@ -3,7 +3,10 @@
 A curated reading list on LLM-driven chip design automation and hardware security, organized by:
 **Intelligent EDA Closed-Loop (Generation–Optimization–Verification–Fixing) + Lifecycle Security (Design–Verification–Deployment/Operation)**.
 
+**Note:** The complete bibliography covered in our survey will be released soon.
+
 ## Taxonomy
+
 ### Part A. Intelligent EDA Closed-Loop
 1) Spec Understanding & Architecture/RTL Generation  
 2) Constraint Optimization & PPA Convergence  
@@ -17,21 +20,27 @@ A curated reading list on LLM-driven chip design automation and hardware securit
 
 ## Papers (with tags)
 
+**Task tags:** rtl-gen, constraint-ppa, verification, debug-fix, trojan-detect, vuln-analysis  
+**Method tags:** prompt, finetune, rag, tool-in-the-loop, multi-agent
+
 | Year | Venue | Title | Task | Method | Benchmarks/Datasets | Code | Notes |
 |---|---|---|---|---|---|---|---|
-| 2025 | arXiv | Paper Title | RTL Gen | RAG + Tool-in-the-loop | VerilogEval | ✔️ | short takeaway |
-
+| 2025 | arXiv | Paper Title | rtl-gen | rag; tool-in-the-loop | verilogeval | ✔️ | short takeaway |
 
 ## Datasets & Benchmarks
 - VerilogEval / RTLLM / ...
 - Security datasets (HW-CWE / CVEs / ...)
 
 ## Reproducibility Checklist
-- Code available? Dataset available? Evaluation script? Toolchain? Seeds?
+- Code available?
+- Dataset available?
+- Evaluation script?
+- Toolchain details (EDA stack / simulator / formal tool)?
+- Random seeds / configs?
 
 ## How to Contribute
 - Add a paper via PR using the template
-- Tagging rules
+- Follow the tagging rules above
 
 ## Citation
 If you find this repo useful, please cite our survey.
